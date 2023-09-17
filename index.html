@@ -8,35 +8,38 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/queries.css">
 </head>
 
 <body>
-  <div class="container">
-    <main class="card">
-      <div class="card-graphic">IMG</div>
-      <section class="card-details">
-        <p class="p-category">Perfume</p>
+  <main class="card">
+    <picture class="card-graphic">
+      <source media="(max-width:799px)" srcset="images/image-product-mobile.jpg">
+      <source media="(min-width:800px)" srcset="images/image-product-desktop.jpg">
+      <img src="images/image-product-mobile.jpg" alt="Product photo">
+    </picture>
 
-        <h1 class="p-name">Gabrielle Essence Eau De Parfum</h1>
+    <section class="card-details">
+      <p class="p-category">Perfume</p>
 
-        <p class="p-details">
-          A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.
-        </p>
+      <h1 class="p-name lead">Gabrielle Essence Eau De Parfum</h1>
 
-        <div class="prices">
-          <p class="curr-price lead">$149.99</p>
-          <p class="old-price">$169.99</p>
-        </div>
+      <p class="p-details">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
 
-        <button class="cart-btn">Add to Cart</button>
-      </section>
-    </main>
+      <span class="p-price lead">$149.99 </span>
+      <span class="list-price">$169.99</span>
+      <!-- TODO: Icon -->
+      <button class="cart-btn"><img src="images/icon-cart.svg" alt="add to cart">Add to Cart</button>
+    </section>
+  </main>
 
-    <footer class="footer">
-      <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
-    </footer>
-  </div>
+  <footer class="footer">
+    <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
+  </footer>
+
 
 </body>
 
