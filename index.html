@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | Product preview card component</title>
+  <title>Product preview card component</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/index.css">
@@ -13,22 +13,24 @@
 <body>
   <div class="container">
     <main class="card">
+      <div class="card-graphic">IMG</div>
+      <section class="card-details">
+        <p class="p-category">Perfume</p>
 
-      <p>Perfume</p>
+        <h1 class="p-name">Gabrielle Essence Eau De Parfum</h1>
 
-      <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p class="p-details">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
 
-      <p>
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
+        <div class="prices">
+          <p class="curr-price lead">$149.99</p>
+          <p class="old-price">$169.99</p>
+        </div>
 
-      <div class="prices">
-        <p class="price">$149.99</p>
-        <p class="strike-price">$169.99</p>
-      </div>
-
-      <button class="add-cart">Add to Cart</button>
+        <button class="cart-btn">Add to Cart</button>
+      </section>
     </main>
 
     <footer class="footer">
