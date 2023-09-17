@@ -3,12 +3,13 @@
 :root {
   --attr-color: rgb(24, 110, 78);
   --white: rgb(255, 255, 255);
-  --green: rgb(60, 128, 103);
   --cream: rgb(242, 235, 227);
-  --gray-blue: rgb(108, 114, 137);
+  --green: rgb(60, 128, 103);
+  --gray: rgb(108, 114, 137);
   --dark-blue: rgb(28, 35, 43);
   --primary-font: 'Montserrat', sans-serif;
   --secondary-font: 'Fraunces', serif;
+  --b-radius: 10px;
 }
 
 *,
@@ -32,7 +33,11 @@ picture {
 }
 
 button {
+  display: block;
   font: inherit;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 ul {
