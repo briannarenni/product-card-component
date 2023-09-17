@@ -1,0 +1,17 @@
+body {
+  max-height: 100vh;
+}
+
+/* Footer */
+.footer {
+
+}
+
+.footer a {
+  color: var(--attr-color);
+}
+
+.footer a:hover {
+  color: var(--attr-color);
+  font-weight: bold;
+}

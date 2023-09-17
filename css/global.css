@@ -1,0 +1,32 @@
+:root {
+  --attr-color: rgb(134, 162, 253);
+  --white: rgb(255, 255, 255);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
