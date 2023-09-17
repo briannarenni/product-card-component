@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 :root {
-  --attr-color: rgb(134, 162, 253);
+  --attr-color: rgb(24, 110, 78);
   --white: rgb(255, 255, 255);
+  --green: rgb(60, 128, 103);
+  --cream: rgb(242, 235, 227);
+  --gray-blue: rgb(108, 114, 137);
+  --dark-blue: rgb(28, 35, 43);
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Fraunces', serif;
 }
 
 *,
