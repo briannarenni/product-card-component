@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--cream);
   color: var(--gray);
   font-family: var(--primary-font);
@@ -20,6 +23,11 @@ body {
 
 .card-details {
   padding: 5px 25px;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .cart-btn {
@@ -46,9 +54,10 @@ body {
 }
 
 .p-category {
-  font-size: 13px;
+  font-size: 12.5px;
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin-bottom: 5px;
 }
 
 .p-name {
@@ -65,6 +74,7 @@ body {
 
 .list-price {
   text-decoration: line-through;
+  margin-left: 15px;
 }
 
 /* Footer */
