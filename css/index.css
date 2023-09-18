@@ -23,11 +23,20 @@ body {
 }
 
 .cart-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: var(--green);
   color: white;
   padding: 15px;
   border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cart-icon {
+  margin-right: 10px;
 }
 
 /* Text Styling */
